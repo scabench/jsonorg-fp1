@@ -2,7 +2,7 @@
 
 The project contains a [json.org](https://mvnrepository.com/artifact/org.json/json/20220924) dependency with [CVE-2022-45688](https://nvd.nist.gov/vuln/detail/CVE-2022-45688) but does __not__ invoke the vulnerable class.
 
-Metadata-based software composition analyses will produce false positives, while
+Metadata-based software composition analyses will produce a false positive, while
 callgraph-based analyses will not flag this application as vulnerable. 
 
 ### Running Software Composition Analyses
